@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav" >
+    <div id="nav">
       <router-link to="/">个人简历</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -14,15 +14,15 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-   background-color: #008c8c;
+  background-color: #008c8c;
 }
-  *{
-    margin: 0;
-    padding: 0;
-  }
-  .router-link-exact-active{
-    text-decoration: none;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+.router-link-exact-active {
+  text-decoration: none;
+}
 #nav {
   padding: 30px;
 
